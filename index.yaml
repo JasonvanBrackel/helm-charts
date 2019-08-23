@@ -2,11 +2,20 @@ apiVersion: v1
 entries:
   slack-conversation-scraper:
   - apiVersion: v1
-    created: 2019-08-23T14:31:23.892309382-04:00
+    created: 2019-08-23T15:59:02.751575868-04:00
     description: Scrapes Conversations For a Given User OAuth Scope
-    digest: dc9c3011410693a4176751452521634bf0186791013d51f115d2ca14faf26365
+    digest: a6409d646203c14aafc4e0630712e6419e5e8573acfd215266dd752712641f27
     name: slack-conversation-scraper
     urls:
-    - slack-conversation-scraper-v0.1.0.tgz
+    - slack-conversation-scraper/slack-conversation-scraper-v0.1.0.tgz
     version: v0.1.0
-generated: 2019-08-23T14:31:23.891793653-04:00
+  slack-user-scraper:
+  - apiVersion: v1
+    created: 2019-08-23T15:59:02.751775434-04:00
+    description: Slack User Scraper
+    digest: 7d3678ab2725a2f2c7ec51bcac07780c16a90979243852bbe447448cd0901718
+    name: slack-user-scraper
+    urls:
+    - slack-user-scraper/slack-user-scraper-v0.1.0.tgz
+    version: v0.1.0
+generated: 2019-08-23T15:59:02.751249632-04:00
