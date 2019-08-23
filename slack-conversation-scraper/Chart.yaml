@@ -1,0 +1,4 @@
+apiVersion: v1
+description: Scrapes Conversations For a Given User OAuth Scope
+name: slack-conversation-scraper
+version: v0.1.0

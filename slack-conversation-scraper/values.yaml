@@ -1,0 +1,33 @@
+# Namespace
+namespace: slack
+
+# Number of Replicas to Create
+replicaCount: 1
+
+# Image Properties
+image:
+  pullPolicy: Always
+
+# Default Service Specification
+service:
+  name: slack-conversation-scraper-metrics
+  type: ClusterIP
+  internalPort: 3001
+  externalPort: 3001
+
+# Default Resource Quotas
+resources:
+  limits:
+    cpu: 1
+    memory: 256Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+# Ingress
+ingress:
+  enabled: false
+
+# Slack Configuration
+slackConfiguration:
+  slackUrl: slack.com

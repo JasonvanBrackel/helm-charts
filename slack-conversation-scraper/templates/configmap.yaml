@@ -1,0 +1,7 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: slack-url
+  namespace: {{ required .Values.namespace }}
+data:
+  slack_url: {{ required .Values.slackConfiguration.slack_url }}
