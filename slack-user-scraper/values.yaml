@@ -6,13 +6,13 @@ replicaCount: 1
 
 # Image Properties
 image:
-  repository: morehumansoftware/slack-conversation-scraper
+  repository: morehumansoftware/slack-user-scraper
   tag: latest
   pullPolicy: Always
 
 # Default Service Specification
 service:
-  name: slack-conversation-scraper-metrics
+  name: slack-user-scraper-metrics
   type: ClusterIP
   internalPort: 3001
   externalPort: 3001

@@ -1,0 +1,4 @@
+apiVersion: v1
+description: Slack User Scraper
+name: slack-user-scraper
+version: v0.1.0
