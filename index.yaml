@@ -7,7 +7,7 @@ entries:
     digest: a6409d646203c14aafc4e0630712e6419e5e8573acfd215266dd752712641f27
     name: slack-conversation-scraper
     urls:
-    - slack-conversation-scraper/slack-conversation-scraper-v0.1.0.tgz
+    - https://github.com/JasonvanBrackel/helm-charts/raw/master/slack-conversation-scraper/slack-conversation-scraper-v0.1.0.tgz
     version: v0.1.0
   slack-user-scraper:
   - apiVersion: v1
@@ -16,6 +16,6 @@ entries:
     digest: 7d3678ab2725a2f2c7ec51bcac07780c16a90979243852bbe447448cd0901718
     name: slack-user-scraper
     urls:
-    - slack-user-scraper/slack-user-scraper-v0.1.0.tgz
+    - https://github.com/JasonvanBrackel/helm-charts/raw/master/slack-user-scraper/slack-user-scraper-v0.1.0.tgz
     version: v0.1.0
 generated: 2019-08-23T15:59:02.751249632-04:00
